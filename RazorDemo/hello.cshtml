@@ -1,0 +1,17 @@
+﻿@{
+    Page.Title = "Title goes here";
+    //Layout = "Your Layout Page goes here";
+
+    var fruits = new List<string> { "apple", "oranges", "bananas" };
+}
+
+<div>
+    <p>Hello from @Server.MachineName</p>
+
+    <ul>
+        @foreach (var fruit in fruits)
+        {
+            <li>@fruit</li>
+        }
+    </ul>
+</div>
