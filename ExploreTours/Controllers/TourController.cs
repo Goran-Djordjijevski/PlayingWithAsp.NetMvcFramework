@@ -9,6 +9,8 @@ namespace ExploreTours.Controllers
 {
     public class TourController : Controller
     {
+        private MyDbContext db = new MyDbContext();
+
         // GET: Tour
         public ActionResult Index()
         {
@@ -33,7 +35,8 @@ namespace ExploreTours.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
+                db.Tours.Add(tour);
+                db.SaveChanges();
 
                 return RedirectToAction("Index");
             }
