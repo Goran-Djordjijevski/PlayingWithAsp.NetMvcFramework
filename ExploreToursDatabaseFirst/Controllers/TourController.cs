@@ -128,5 +128,12 @@ namespace ExploreToursDatabaseFirst.Controllers
             }
             base.Dispose(disposing);
         }
+
+        public ActionResult Difficult()
+        {
+            var tours = db.Tours.Include(t => t.Rating).Where(t => t.Rating.Name == "Difficult").OrderBy(t => t.Name);
+
+            return View(tours.ToList());
+        }
     }
 }
