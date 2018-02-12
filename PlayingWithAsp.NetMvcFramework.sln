@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreTours", "ExploreTour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreToursDatabaseFirst", "ExploreToursDatabaseFirst\ExploreToursDatabaseFirst.csproj", "{DAAC21B1-C9B8-4705-AD78-C6368765E635}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreTours.API", "ExploreTours.API\ExploreTours.API.csproj", "{B9D2012B-7F5F-4A95-A6BC-A003104186DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{DAAC21B1-C9B8-4705-AD78-C6368765E635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAC21B1-C9B8-4705-AD78-C6368765E635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAAC21B1-C9B8-4705-AD78-C6368765E635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D2012B-7F5F-4A95-A6BC-A003104186DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D2012B-7F5F-4A95-A6BC-A003104186DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D2012B-7F5F-4A95-A6BC-A003104186DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D2012B-7F5F-4A95-A6BC-A003104186DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
