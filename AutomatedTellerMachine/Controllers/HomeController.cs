@@ -26,5 +26,10 @@ namespace AutomatedTellerMachine.Controllers
 
             return View();
         }
+
+        public ActionResult Foo()
+        {
+            return View(viewName: "About");
+        }
     }
 }
