@@ -29,7 +29,7 @@ namespace AutomatedTellerMachine.Controllers
 
         public ActionResult Foo()
         {
-            return View(viewName: "About");
+            return new HttpStatusCodeResult(403);
         }
     }
 }
