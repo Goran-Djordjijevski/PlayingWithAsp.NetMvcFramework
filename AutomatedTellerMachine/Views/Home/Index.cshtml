@@ -2,25 +2,15 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>Middle Valley Community Bank</h1>
-    <p class="lead">Middle Valley Community Bank offers the first-ever web-based ATM. Give it a try today!</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Powered by ASP.NET</a></p>
-</div>
-
 <div class="row">
-    <div class="col-md-4">
-        <h2>Register</h2>
-        <p>
-            Open an account with us
-        </p>
-        <p>@Html.ActionLink(linkText: "Register", actionName: "Register", controllerName: "Account", routeValues: null, htmlAttributes: new { @class= "btn btn-default" })</p>
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Withdraw</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Quick Cash $100</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Balance Inquiry</a>
     </div>
-    <div class="col-md-4">
-        <h2>Log in</h2>
-        <p>Access your existing account</p>
-        <p>@Html.ActionLink(linkText: "Login", actionName: "Login", controllerName: "Account", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })</p>
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Print Statement</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Transfer Funds</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="arrow-circle-down"></span>Deposit</a>
     </div>
 </div>
-
-<h2>You are using @Request.Browser.Browser</h2>
